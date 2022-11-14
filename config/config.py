@@ -47,9 +47,9 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("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", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", None)
+SUPPORT_CHANNEL = getenv("@HumannFreaks", None)
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", None)
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
