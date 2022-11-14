@@ -18,26 +18,26 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("12162622", ""))
+API_HASH = getenv("9335f6a822991a2a2792cd72c98801c3")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("5517667424:AAEDcbrlV5JrH-Nq4kaMU6u47GZdVl1PSiw")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://Deiichi:deiichi@cluster0.mtssjtw.mongodb.net/?retryWrites=true&w=majority", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("-1001877677686", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("Alexy")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+OWNER_ID = list(map(int, getenv("5489233583", "").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID")
+BOT_ID = getenv("5517667424")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -86,7 +86,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("AQDCuk6cuJGmQIu4tIzHOaSbdXokUYVsaGhVV7dtmDrN48XWGy8qAAVy5VXhn4pAQ2pCgCBwlr9ULuBPNDzhLmod5Whh5CjecQHRCzZYIp5B475nJYTylWcgegOCttcDKwtvntR8SbsXY0HXS7gAkthxFiAnIWVToPChk2vsciOHEAIBxcQb6dk_YiMXfkLYM-lAQnKNWpQVu09sztt1kxe-0Sdm5azdluSbR2eROA-jSi2KPHxLcDW1NVXJ5zfV2I0ZMwJCMzkpjvuZA7I1AkGe_sDKyrZykroLwKa6_0b-8JDddytZth3of3POhEXjJYzvQasR6a6zwP3lMNbnFI9FAAAAAUg5kZwA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -105,7 +105,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/f6064bc90cc76e59015b2.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/964eb49390fdd0f95d857.jpg"
 )
 
 PING_IMG_URL = getenv(
